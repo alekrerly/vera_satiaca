@@ -1,0 +1,97 @@
+.contactos{
+	border:6px  solid #FFB6C1;
+	width: 25%;
+	float:left;
+	border-radius: 20px;
+	background: #DCDCDC;
+	margin: 20px;
+} 
+.servicios{
+	border:6px  solid #FFB6C1;
+	width:29%;
+	float:left;
+	border-radius: 20px;
+	background: #DCDCDC;
+	margin: 20px;
+}
+
+header{
+	background-color: #D19FBB;
+	border-bottom: 3px solid #D19FBB;
+	padding: 10px  20px;
+}
+
+.header-container{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center; 
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.logo{
+	font-size: 18px;
+	font-weight: bold;/*negritas*/
+	color:#E3D5DC;
+}
+
+nav ul{
+
+	list-style: none;/*quitar viñetas*/
+	margin: 0;
+	padding: 0;
+	display:flex;
+	gap:20px;
+}
+
+
+
+nav ul li a{
+	text-decoration: none;
+	color:#E3D5DC;
+	font-weight: 600px;
+	padding: 8px 12px;
+	border-radius: 4px;
+	transition: background-color 0.3s, color 0.3s ;
+}
+
+
+
+nav ul li a:hover{
+	background-color: #B54A8A;
+	color:#E3D5DC;
+}
+
+
+
+footer {
+background-color: #D05D87; /* Azul oscuro */
+color: #cbd5e1;
+padding: 20px;
+font-size: 14px;
+clear:both;
+}
+
+.footer-container {
+max-width: 1000px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between; /* Texto a la izquierda, contacto a la derecha */
+align-items: center;
+flex-wrap: wrap;
+gap: 15px;
+}
+
+.footer-container p {
+margin: 0;
+}
+
+.footer-container a {
+color:#5B1A32; /* Celeste para resaltar los enlaces directos */
+text-decoration: none;
+}
+
+.footer-container a:hover {
+text-decoration: underline;
+}
